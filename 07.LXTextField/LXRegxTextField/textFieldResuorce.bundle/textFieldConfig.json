@@ -1,0 +1,121 @@
+{
+    "typeKeys": [
+                 "userName",
+                 "pwd",
+                 "mobile",
+                 "phoneCode",
+                 "imageCode",
+                 "idCardNum",
+                 "bankNum",
+                 "num",
+                 "money",
+                 "url",
+                 "mail"
+                 ],
+    "leftImageName": {
+        "userName": "userName",
+        "pwd": "pwd",
+        "mobile": "mobile",
+        "phoneCode": "userName",
+        "imageCode": "userName",
+        "idCardNum": "idCard",
+        "bankNum": "bankCard",
+        "num": "idCard",
+        "money": "idCard",
+        "url": "idCard",
+        "mail": "idCard"
+    },
+    "leftTitle": {
+        "userName": "用户名",
+        "pwd": "密  码",
+        "mobile": "手机",
+        "phoneCode": "手机验证码",
+        "imageCode": "图形验证码",
+        "idCardNum": "身份证号",
+        "bankNum": "银行卡号",
+        "num": "期数",
+        "money": "金额",
+        "url": "网址",
+        "mail": "邮箱"
+    },
+    "placeHolder": {
+        "userName": "请输入您的姓名",
+        "pwd": "请输入您的密码",
+        "mobile": "请输入您的手机号码",
+        "phoneCode": "请输入短信验证码",
+        "imageCode": "请输入图形验证码",
+        "idCardNum": "请输入您的身份证号",
+        "bankNum": "请输入您的银行卡号",
+        "num": "请输入您的还款期数",
+        "money": "请输入金额",
+        "url": "请输入对应的网址",
+        "mail": "请输入您的邮箱"
+    },
+    "maxLength": {
+        "userName": 12,
+        "pwd": 20,
+        "mobile": 11,
+        "phoneCode": 6,
+        "imageCode": 6,
+        "idCardNum": 18,
+        "bankNum": 19,
+        "num": 20,
+        "money": 9,
+        "url": 200,
+        "mail": 30
+    },
+    "notice": {
+        "userName": "请您输入3～10位数字,字母",
+        "pwd": "请您输入6~20位字母,数字,字符组成的密码",
+        "mobile": "请您输入11位数的手机号码",
+        "phoneCode": "验证码格式不正确,请您确认后再次输入",
+        "imageCode": "验证码格式不正确,请您确认后再次输入",
+        "idCardNum": "身份证格式不正确,请您核对后再次输入",
+        "bankNum": "身份证格式不正确,请您核对后再次输入",
+        "num": "请输入存数字",
+        "money": "对不起您输入的金额超上限,请重新输入",
+        "url": "网址格式不正确,请您核对后输入",
+        "mail": "邮件格式不正确,请您核对后输入"
+    },
+    "regx": {
+        "userName": "^[A-Za-z]{3,40}$",
+        "pwd": "[a-zA-Z0-9]\\w{6,15}$",
+        "mobile": "^1[3|4|5|7|8][0-9]{9}$",
+        "phoneCode": "[0-9]{4,6}",
+        "imageCode": "[A-Za-z0-9]{1,6}",
+        "idCardNum": "\\d{14}[[0-9],0-9xX]",
+        "bankNum": "^\\d{16}|\\d{19}$",
+        "num": "[0-9]+",
+        "money": "^[^0][0-9]{0,9}",
+        "url": "^(http|https)://[^\\s]*$",
+        "mail": "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}"
+    },
+    "charRegx": {
+        "userName": "[a-zA-Z]{1,}",
+        "pwd": "[a-zA-Z0-9]",
+        "mobile": "[0-9]",
+        "phoneCode": "[0-9]",
+        "imageCode": "[A-Za-z0-9]",
+        "idCardNum": "[0-9]",
+        "bankNum": "[0-9]",
+        "num": "[0-9]",
+        "money": "[0-9]",
+        "url": "[0-9a-zA-Z]|[(.)]",
+        "mail": "[0-9a-zA-Z]|[(.)]|[@]"
+    },
+    "seperator": {
+        "mobile": " ",
+        "idCardNum": " ",
+        "bankNum": " ",
+    },
+    "seperators": {
+        "mobile": [3,4,4],
+        "idCardNum": [6,4,4,4],
+        "bankNum":[4,4,4,4,3]
+    },
+    "seperatorRegx": {
+        "mobile": "[^0-9]+",
+        "idCardNum": "[^0-9]+",
+        "bankNum": "[^0-9]+",
+    }
+}

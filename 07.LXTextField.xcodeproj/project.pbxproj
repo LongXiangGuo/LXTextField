@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F25B8D491DD7FCF200BE4FF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F25B8D481DD7FCF200BE4FF6 /* main.m */; };
+		F25B8D4C1DD7FCF200BE4FF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F25B8D4B1DD7FCF200BE4FF6 /* AppDelegate.m */; };
+		F25B8D4F1DD7FCF200BE4FF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25B8D4E1DD7FCF200BE4FF6 /* ViewController.m */; };
+		F25B8D521DD7FCF200BE4FF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25B8D501DD7FCF200BE4FF6 /* Main.storyboard */; };
+		F25B8D541DD7FCF200BE4FF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F25B8D531DD7FCF200BE4FF6 /* Assets.xcassets */; };
+		F25B8D571DD7FCF200BE4FF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25B8D551DD7FCF200BE4FF6 /* LaunchScreen.storyboard */; };
+		F25B8D621DD7FCF200BE4FF6 /* _7_LXTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F25B8D611DD7FCF200BE4FF6 /* _7_LXTextFieldTests.m */; };
+		F25B8D6D1DD7FCF200BE4FF6 /* _7_LXTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F25B8D6C1DD7FCF200BE4FF6 /* _7_LXTextFieldUITests.m */; };
+		F2D423C81DD81AF70041D46F /* LXTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D423C61DD81AF70041D46F /* LXTextField.m */; };
+		F2D423C91DD81AF70041D46F /* textFieldResuorce.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F2D423C71DD81AF70041D46F /* textFieldResuorce.bundle */; };
+		F2D423CF1DD8BAA80041D46F /* PLMCodeBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D423CC1DD8BAA80041D46F /* PLMCodeBtn.m */; };
+		F2D423D01DD8BAA80041D46F /* UITextField+CHTHealper.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D423CE1DD8BAA80041D46F /* UITextField+CHTHealper.m */; };
+		F2D423D31DD8CAC10041D46F /* PLMMsgView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D423D21DD8CAC10041D46F /* PLMMsgView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F25B8D5E1DD7FCF200BE4FF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F25B8D3C1DD7FCF200BE4FF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F25B8D431DD7FCF200BE4FF6;
+			remoteInfo = 07.LXTextField;
+		};
+		F25B8D691DD7FCF200BE4FF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F25B8D3C1DD7FCF200BE4FF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F25B8D431DD7FCF200BE4FF6;
+			remoteInfo = 07.LXTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F25B8D441DD7FCF200BE4FF6 /* 07.LXTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 07.LXTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25B8D481DD7FCF200BE4FF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F25B8D4A1DD7FCF200BE4FF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F25B8D4B1DD7FCF200BE4FF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F25B8D4D1DD7FCF200BE4FF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F25B8D4E1DD7FCF200BE4FF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F25B8D511DD7FCF200BE4FF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F25B8D531DD7FCF200BE4FF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F25B8D561DD7FCF200BE4FF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F25B8D581DD7FCF200BE4FF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25B8D5D1DD7FCF200BE4FF6 /* 07.LXTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 07.LXTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25B8D611DD7FCF200BE4FF6 /* _7_LXTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _7_LXTextFieldTests.m; sourceTree = "<group>"; };
+		F25B8D631DD7FCF200BE4FF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25B8D681DD7FCF200BE4FF6 /* 07.LXTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 07.LXTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25B8D6C1DD7FCF200BE4FF6 /* _7_LXTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _7_LXTextFieldUITests.m; sourceTree = "<group>"; };
+		F25B8D6E1DD7FCF200BE4FF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2D423C51DD81AF70041D46F /* LXTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXTextField.h; sourceTree = "<group>"; };
+		F2D423C61DD81AF70041D46F /* LXTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXTextField.m; sourceTree = "<group>"; };
+		F2D423C71DD81AF70041D46F /* textFieldResuorce.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = textFieldResuorce.bundle; sourceTree = "<group>"; };
+		F2D423CB1DD8BAA80041D46F /* PLMCodeBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLMCodeBtn.h; sourceTree = "<group>"; };
+		F2D423CC1DD8BAA80041D46F /* PLMCodeBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLMCodeBtn.m; sourceTree = "<group>"; };
+		F2D423CD1DD8BAA80041D46F /* UITextField+CHTHealper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+CHTHealper.h"; sourceTree = "<group>"; };
+		F2D423CE1DD8BAA80041D46F /* UITextField+CHTHealper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CHTHealper.m"; sourceTree = "<group>"; };
+		F2D423D11DD8CAC10041D46F /* PLMMsgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PLMMsgView.h; path = ../LXRegxTextField/PLMMsgView.h; sourceTree = "<group>"; };
+		F2D423D21DD8CAC10041D46F /* PLMMsgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PLMMsgView.m; path = ../LXRegxTextField/PLMMsgView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F25B8D411DD7FCF200BE4FF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25B8D5A1DD7FCF200BE4FF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25B8D651DD7FCF200BE4FF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F25B8D3B1DD7FCF200BE4FF6 = {
+			isa = PBXGroup;
+			children = (
+				F25B8D461DD7FCF200BE4FF6 /* 07.LXTextField */,
+				F25B8D601DD7FCF200BE4FF6 /* 07.LXTextFieldTests */,
+				F25B8D6B1DD7FCF200BE4FF6 /* 07.LXTextFieldUITests */,
+				F25B8D451DD7FCF200BE4FF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F25B8D451DD7FCF200BE4FF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F25B8D441DD7FCF200BE4FF6 /* 07.LXTextField.app */,
+				F25B8D5D1DD7FCF200BE4FF6 /* 07.LXTextFieldTests.xctest */,
+				F25B8D681DD7FCF200BE4FF6 /* 07.LXTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F25B8D461DD7FCF200BE4FF6 /* 07.LXTextField */ = {
+			isa = PBXGroup;
+			children = (
+				F25B8D4A1DD7FCF200BE4FF6 /* AppDelegate.h */,
+				F25B8D4B1DD7FCF200BE4FF6 /* AppDelegate.m */,
+				F25B8D4D1DD7FCF200BE4FF6 /* ViewController.h */,
+				F25B8D4E1DD7FCF200BE4FF6 /* ViewController.m */,
+				F25B8D501DD7FCF200BE4FF6 /* Main.storyboard */,
+				F25B8D531DD7FCF200BE4FF6 /* Assets.xcassets */,
+				F25B8D551DD7FCF200BE4FF6 /* LaunchScreen.storyboard */,
+				F2D423C41DD81AF70041D46F /* LXRegxTextField */,
+				F2D423CA1DD8BAA80041D46F /* Resources */,
+				F25B8D581DD7FCF200BE4FF6 /* Info.plist */,
+				F25B8D471DD7FCF200BE4FF6 /* Supporting Files */,
+			);
+			path = 07.LXTextField;
+			sourceTree = "<group>";
+		};
+		F25B8D471DD7FCF200BE4FF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F25B8D481DD7FCF200BE4FF6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F25B8D601DD7FCF200BE4FF6 /* 07.LXTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				F25B8D611DD7FCF200BE4FF6 /* _7_LXTextFieldTests.m */,
+				F25B8D631DD7FCF200BE4FF6 /* Info.plist */,
+			);
+			path = 07.LXTextFieldTests;
+			sourceTree = "<group>";
+		};
+		F25B8D6B1DD7FCF200BE4FF6 /* 07.LXTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F25B8D6C1DD7FCF200BE4FF6 /* _7_LXTextFieldUITests.m */,
+				F25B8D6E1DD7FCF200BE4FF6 /* Info.plist */,
+			);
+			path = 07.LXTextFieldUITests;
+			sourceTree = "<group>";
+		};
+		F2D423C41DD81AF70041D46F /* LXRegxTextField */ = {
+			isa = PBXGroup;
+			children = (
+				F2D423C51DD81AF70041D46F /* LXTextField.h */,
+				F2D423C61DD81AF70041D46F /* LXTextField.m */,
+				F2D423C71DD81AF70041D46F /* textFieldResuorce.bundle */,
+			);
+			path = LXRegxTextField;
+			sourceTree = "<group>";
+		};
+		F2D423CA1DD8BAA80041D46F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F2D423D11DD8CAC10041D46F /* PLMMsgView.h */,
+				F2D423D21DD8CAC10041D46F /* PLMMsgView.m */,
+				F2D423CB1DD8BAA80041D46F /* PLMCodeBtn.h */,
+				F2D423CC1DD8BAA80041D46F /* PLMCodeBtn.m */,
+				F2D423CD1DD8BAA80041D46F /* UITextField+CHTHealper.h */,
+				F2D423CE1DD8BAA80041D46F /* UITextField+CHTHealper.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F25B8D431DD7FCF200BE4FF6 /* 07.LXTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25B8D711DD7FCF200BE4FF6 /* Build configuration list for PBXNativeTarget "07.LXTextField" */;
+			buildPhases = (
+				F25B8D401DD7FCF200BE4FF6 /* Sources */,
+				F25B8D411DD7FCF200BE4FF6 /* Frameworks */,
+				F25B8D421DD7FCF200BE4FF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 07.LXTextField;
+			productName = 07.LXTextField;
+			productReference = F25B8D441DD7FCF200BE4FF6 /* 07.LXTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F25B8D5C1DD7FCF200BE4FF6 /* 07.LXTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25B8D741DD7FCF200BE4FF6 /* Build configuration list for PBXNativeTarget "07.LXTextFieldTests" */;
+			buildPhases = (
+				F25B8D591DD7FCF200BE4FF6 /* Sources */,
+				F25B8D5A1DD7FCF200BE4FF6 /* Frameworks */,
+				F25B8D5B1DD7FCF200BE4FF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F25B8D5F1DD7FCF200BE4FF6 /* PBXTargetDependency */,
+			);
+			name = 07.LXTextFieldTests;
+			productName = 07.LXTextFieldTests;
+			productReference = F25B8D5D1DD7FCF200BE4FF6 /* 07.LXTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F25B8D671DD7FCF200BE4FF6 /* 07.LXTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25B8D771DD7FCF200BE4FF6 /* Build configuration list for PBXNativeTarget "07.LXTextFieldUITests" */;
+			buildPhases = (
+				F25B8D641DD7FCF200BE4FF6 /* Sources */,
+				F25B8D651DD7FCF200BE4FF6 /* Frameworks */,
+				F25B8D661DD7FCF200BE4FF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F25B8D6A1DD7FCF200BE4FF6 /* PBXTargetDependency */,
+			);
+			name = 07.LXTextFieldUITests;
+			productName = 07.LXTextFieldUITests;
+			productReference = F25B8D681DD7FCF200BE4FF6 /* 07.LXTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F25B8D3C1DD7FCF200BE4FF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = longxiang;
+				TargetAttributes = {
+					F25B8D431DD7FCF200BE4FF6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F25B8D5C1DD7FCF200BE4FF6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F25B8D431DD7FCF200BE4FF6;
+					};
+					F25B8D671DD7FCF200BE4FF6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F25B8D431DD7FCF200BE4FF6;
+					};
+				};
+			};
+			buildConfigurationList = F25B8D3F1DD7FCF200BE4FF6 /* Build configuration list for PBXProject "07.LXTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F25B8D3B1DD7FCF200BE4FF6;
+			productRefGroup = F25B8D451DD7FCF200BE4FF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F25B8D431DD7FCF200BE4FF6 /* 07.LXTextField */,
+				F25B8D5C1DD7FCF200BE4FF6 /* 07.LXTextFieldTests */,
+				F25B8D671DD7FCF200BE4FF6 /* 07.LXTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F25B8D421DD7FCF200BE4FF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25B8D571DD7FCF200BE4FF6 /* LaunchScreen.storyboard in Resources */,
+				F2D423C91DD81AF70041D46F /* textFieldResuorce.bundle in Resources */,
+				F25B8D541DD7FCF200BE4FF6 /* Assets.xcassets in Resources */,
+				F25B8D521DD7FCF200BE4FF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25B8D5B1DD7FCF200BE4FF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25B8D661DD7FCF200BE4FF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F25B8D401DD7FCF200BE4FF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25B8D4F1DD7FCF200BE4FF6 /* ViewController.m in Sources */,
+				F2D423C81DD81AF70041D46F /* LXTextField.m in Sources */,
+				F2D423CF1DD8BAA80041D46F /* PLMCodeBtn.m in Sources */,
+				F2D423D01DD8BAA80041D46F /* UITextField+CHTHealper.m in Sources */,
+				F25B8D4C1DD7FCF200BE4FF6 /* AppDelegate.m in Sources */,
+				F25B8D491DD7FCF200BE4FF6 /* main.m in Sources */,
+				F2D423D31DD8CAC10041D46F /* PLMMsgView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25B8D591DD7FCF200BE4FF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25B8D621DD7FCF200BE4FF6 /* _7_LXTextFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25B8D641DD7FCF200BE4FF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25B8D6D1DD7FCF200BE4FF6 /* _7_LXTextFieldUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F25B8D5F1DD7FCF200BE4FF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F25B8D431DD7FCF200BE4FF6 /* 07.LXTextField */;
+			targetProxy = F25B8D5E1DD7FCF200BE4FF6 /* PBXContainerItemProxy */;
+		};
+		F25B8D6A1DD7FCF200BE4FF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F25B8D431DD7FCF200BE4FF6 /* 07.LXTextField */;
+			targetProxy = F25B8D691DD7FCF200BE4FF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F25B8D501DD7FCF200BE4FF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F25B8D511DD7FCF200BE4FF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F25B8D551DD7FCF200BE4FF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F25B8D561DD7FCF200BE4FF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F25B8D6F1DD7FCF200BE4FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F25B8D701DD7FCF200BE4FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F25B8D721DD7FCF200BE4FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 07.LXTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.guolongxiang.com.-7-LXTextField";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F25B8D731DD7FCF200BE4FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 07.LXTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.guolongxiang.com.-7-LXTextField";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F25B8D751DD7FCF200BE4FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 07.LXTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.guolongxiang.com.-7-LXTextFieldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/07.LXTextField.app/07.LXTextField";
+			};
+			name = Debug;
+		};
+		F25B8D761DD7FCF200BE4FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 07.LXTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.guolongxiang.com.-7-LXTextFieldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/07.LXTextField.app/07.LXTextField";
+			};
+			name = Release;
+		};
+		F25B8D781DD7FCF200BE4FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 07.LXTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.guolongxiang.com.-7-LXTextFieldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 07.LXTextField;
+			};
+			name = Debug;
+		};
+		F25B8D791DD7FCF200BE4FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 07.LXTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.guolongxiang.com.-7-LXTextFieldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 07.LXTextField;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F25B8D3F1DD7FCF200BE4FF6 /* Build configuration list for PBXProject "07.LXTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25B8D6F1DD7FCF200BE4FF6 /* Debug */,
+				F25B8D701DD7FCF200BE4FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F25B8D711DD7FCF200BE4FF6 /* Build configuration list for PBXNativeTarget "07.LXTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25B8D721DD7FCF200BE4FF6 /* Debug */,
+				F25B8D731DD7FCF200BE4FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F25B8D741DD7FCF200BE4FF6 /* Build configuration list for PBXNativeTarget "07.LXTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25B8D751DD7FCF200BE4FF6 /* Debug */,
+				F25B8D761DD7FCF200BE4FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F25B8D771DD7FCF200BE4FF6 /* Build configuration list for PBXNativeTarget "07.LXTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25B8D781DD7FCF200BE4FF6 /* Debug */,
+				F25B8D791DD7FCF200BE4FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F25B8D3C1DD7FCF200BE4FF6 /* Project object */;
+}
